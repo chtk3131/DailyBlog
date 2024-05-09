@@ -22,6 +22,7 @@ export default function LoginForm() {
       },
     });
   };
+
   return (
     <Button variant="outline" className="flex items-center gap-2" onClick={handleLogin}>
       <SiGithub />
